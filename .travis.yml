@@ -4,5 +4,5 @@ dotnet: 2.0.0
 dist: trusty
 script:
  - dotnet restore
- - dotnet build -c Release --framework netcoreapp2.0 --output ..\artifacts
+ - dotnet build -c Release --framework netcoreapp2.0 --output ../artifacts
 
