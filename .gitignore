@@ -3,6 +3,5 @@
 ################################################################################
 
 /.vs
-/Test/.vs/Test/v15
-/Test/Test/obj
-/Test/Test/bin/Debug/netcoreapp2.0
+/Test/bin/Debug/netcoreapp2.0
+/Test/obj
