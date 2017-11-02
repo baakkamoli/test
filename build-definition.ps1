@@ -39,7 +39,7 @@ Task dotnet-restore {
 Task dotnet-build {
 
     if ($VersionSuffix.Length -gt 0) {
-        exec { dotnet build -c $BuildConfiguration --version-suffix $VersionSuffix }
+        exec { dotnet build -c $BuildConfiguration --version-suffix $VersionSuffix --framework netcoreapp2.0 --output $ArtifactsPath }
     } else {
         exec { dotnet build -c $BuildConfiguration }
     }
