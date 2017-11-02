@@ -8,7 +8,7 @@ Properties {
     $BuildConfiguration = "Release"
 
     # The folder in which all output artifacts should be placed
-    $ArtifactsPath = "artifacts"
+    $ArtifactsPath = "..\artifacts"
 
     if ($env:APPVEYOR -eq "True") {
         if ($env:APPVEYOR_REPO_TAG -ne "true") {
