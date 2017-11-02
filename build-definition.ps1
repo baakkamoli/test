@@ -19,7 +19,7 @@ Properties {
     }
 }
 
-Task Default -depends init, dotnet-restore, dotnet-build, dotnet-test, dotnet-pack
+Task Default -depends init, dotnet-restore, dotnet-build, dotnet-test
 
 Task init {
 
